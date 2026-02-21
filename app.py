@@ -125,7 +125,7 @@ app.layout = html.Div([
             ], style={'display': 'flex', 'flex-wrap': 'wrap', 'justify-content': 'space-between',
                       'margin-top': '20px'}),
             dcc.Graph(id='pie-chart'),
-        ], style={'width': '55%', 'display': 'inline-block', 'padding': '10px',
+        ], style={'width': '45%', 'display': 'inline-block', 'padding': '10px',
                   'vertical-align': 'top', 'flex-direction': 'column'}),
     ], style={'display': 'flex', 'flex-wrap': 'nowrap', 'justify-content': 'space-between'}),
 
@@ -428,4 +428,5 @@ def update_dashboard(indikator, tingkat, tahun, clickData, reset_clicks):
 
 if __name__ == '__main__':
     app.run_server(debug=True)
+
 
