@@ -8,6 +8,20 @@ An interactive geospatial dashboard built with **Python Dash** to analyze and ma
 ## 🚀 Project Overview
 This project visualizes school infrastructure damage levels to help identify priority areas for renovations. It transforms raw educational data from **2020 and 2021** into an interactive map and analytical charts.
 
+## 📊 Dashboard Preview
+
+### 1. Overall Dashboard
+Main interface displaying the spatial distribution of classroom damage across Karawang Regency.
+![Main Dashboard](img/preview1.jpeg)
+
+### 2. District Detail & Comparison
+Interactive feature triggered when a user selects a specific district (kecamatan) on the map to see detailed metrics.
+![Detail View](img/preview2.jpeg)
+
+### 3. Renovation Rate
+Visualization comparing classroom conditions and renovation progress between 2020 and 2021.
+![Renovation Rate](img/preview3.jpeg)
+
 ### 📍 Roadmap & Progress
 - [x] **Interactive Dashboard:** Core visualization and filtering system for 2020-2021 data.
 - [ ] **Data Preprocessing Documentation:** Consolidating raw data cleaning (2020-2021 datasets), feature engineering, and geospatial integration into a single Jupyter Notebook.
